@@ -25,7 +25,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <start-class>com.muditasoft.petclinicv2.PetClinicV2Application</start-class>
     </properties>
 
     <dependencies>
