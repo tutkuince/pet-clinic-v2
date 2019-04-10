@@ -11,6 +11,11 @@
 
     <artifactId>pet-clinic-v2-data</artifactId>
 
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+    </properties>
+
+
     <dependencies>
 
         <dependency>
@@ -50,9 +55,6 @@
                         <goals>
                             <goal>repackage</goal>
                         </goals>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
