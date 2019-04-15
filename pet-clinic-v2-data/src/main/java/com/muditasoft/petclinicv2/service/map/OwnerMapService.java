@@ -2,9 +2,11 @@ package com.muditasoft.petclinicv2.service.map;
 
 import com.muditasoft.petclinicv2.model.Owner;
 import com.muditasoft.petclinicv2.service.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
