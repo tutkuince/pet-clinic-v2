@@ -1,11 +1,11 @@
 package com.muditasoft.petclinicv2.service.map;
 
 import com.muditasoft.petclinicv2.model.Vet;
-import com.muditasoft.petclinicv2.service.CrudService;
+import com.muditasoft.petclinicv2.service.VetService;
 
 import java.util.Set;
 
-public class VetMapService extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
